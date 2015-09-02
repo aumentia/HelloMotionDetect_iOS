@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		613CCD641B97739E00084D85 /* VS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613CCD631B97739E00084D85 /* VS.framework */; };
 		6195B3AF1B95F12800C50E28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6195B3AE1B95F12800C50E28 /* main.m */; };
 		6195B3B21B95F12800C50E28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6195B3B11B95F12800C50E28 /* AppDelegate.m */; };
 		6195B3B51B95F12800C50E28 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6195B3B41B95F12800C50E28 /* ViewController.m */; };
@@ -21,10 +22,10 @@
 		6195B3F11B95F71500C50E28 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6195B3EF1B95F70F00C50E28 /* AVFoundation.framework */; };
 		6195B3F41B95FD6900C50E28 /* CaptureSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6195B3F31B95FD6900C50E28 /* CaptureSessionManager.m */; };
 		6195B8001B9763F700C50E28 /* aumentia®.png in Resources */ = {isa = PBXBuildFile; fileRef = 6195B7FF1B9763F700C50E28 /* aumentia®.png */; };
-		6195B8021B97642400C50E28 /* VS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6195B8011B97642400C50E28 /* VS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		613CCD631B97739E00084D85 /* VS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VS.framework; path = SDK/VS.framework; sourceTree = "<group>"; };
 		6195B3A91B95F12800C50E28 /* HelloMotionDetect_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloMotionDetect_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6195B3AD1B95F12800C50E28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6195B3AE1B95F12800C50E28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -44,7 +45,6 @@
 		6195B3F21B95FD6900C50E28 /* CaptureSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureSessionManager.h; sourceTree = "<group>"; };
 		6195B3F31B95FD6900C50E28 /* CaptureSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureSessionManager.m; sourceTree = "<group>"; };
 		6195B7FF1B9763F700C50E28 /* aumentia®.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "aumentia®.png"; sourceTree = "<group>"; };
-		6195B8011B97642400C50E28 /* VS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VS.framework; path = SDK/VS.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6195B8021B97642400C50E28 /* VS.framework in Frameworks */,
+				613CCD641B97739E00084D85 /* VS.framework in Frameworks */,
 				6195B3EE1B95F6FC00C50E28 /* libiconv.dylib in Frameworks */,
 				6195B3F11B95F71500C50E28 /* AVFoundation.framework in Frameworks */,
 				6195B3EB1B95F6D800C50E28 /* CoreMotion.framework in Frameworks */,
@@ -112,7 +112,7 @@
 		6195B3DE1B95F59B00C50E28 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6195B8011B97642400C50E28 /* VS.framework */,
+				613CCD631B97739E00084D85 /* VS.framework */,
 				6195B3EC1B95F6F400C50E28 /* libiconv.dylib */,
 				6195B3EF1B95F70F00C50E28 /* AVFoundation.framework */,
 				6195B3E91B95F6D100C50E28 /* CoreMotion.framework */,
@@ -333,6 +333,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					HelloMotionDetect_iOS/SDK,
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ARBrowser3D_sample_1-cufgzowqrcoijaesgmdzeqebzgas/Build/Products/Debug-iphoneos",
+					"$(PROJECT_DIR)/HelloMotionDetect_iOS/SDK",
 				);
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				INFOPLIST_FILE = HelloMotionDetect_iOS/Info.plist;
@@ -360,6 +362,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					HelloMotionDetect_iOS/SDK,
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ARBrowser3D_sample_1-cufgzowqrcoijaesgmdzeqebzgas/Build/Products/Debug-iphoneos",
+					"$(PROJECT_DIR)/HelloMotionDetect_iOS/SDK",
 				);
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				INFOPLIST_FILE = HelloMotionDetect_iOS/Info.plist;
@@ -396,6 +400,7 @@
 				6195B3CE1B95F12800C50E28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
