@@ -16,6 +16,11 @@ Visual Search Framework
 * Match images and QR codes simultaneously
 * **arm64 support**
 
+**********************
+    NEW: Motion Recognition
+**********************
+* Define virtual buttons (regions of interest) to detect motion
+
 <br>
 **********************
     Request an API Key
