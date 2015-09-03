@@ -333,7 +333,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					HelloMotionDetect_iOS/SDK,
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ARBrowser3D_sample_1-cufgzowqrcoijaesgmdzeqebzgas/Build/Products/Debug-iphoneos",
 				);
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				INFOPLIST_FILE = HelloMotionDetect_iOS/Info.plist;
@@ -362,7 +361,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					HelloMotionDetect_iOS/SDK,
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ARBrowser3D_sample_1-cufgzowqrcoijaesgmdzeqebzgas/Build/Products/Debug-iphoneos",
 				);
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				INFOPLIST_FILE = HelloMotionDetect_iOS/Info.plist;
