@@ -18,7 +18,7 @@
 
 @interface ViewController ()
 {
-    VSMotion                    *_aumMotion;
+    vsMotion                    *_aumMotion;
     CaptureSessionManager       *_captureManager;
     UIView                      *_cameraView;
 }
@@ -64,10 +64,10 @@
     if ( !_aumMotion )
     {
         // Init
-        _aumMotion = [[VSMotion alloc] initWithKey:@"749c6205e9c035d3850b509aa94d1bb5d8d89b4a" setDebug:YES];
+        _aumMotion = [[vsMotion alloc] initWithKey:@"749c6205e9c035d3850b509aa94d1bb5d8d89b4a" setDebug:YES];
         
         // Set delegate
-        [_aumMotion setVSMotionDelegate:self];
+        [_aumMotion setVsMotionDelegate:self];
         
         // Add motion filter
         [_aumMotion initMotionDetectionWithThreshold:3 enableDebugLog:NO];
@@ -93,7 +93,9 @@
     {
         [_aumMotion removeMotionDetection];
         
-        _aumMotion.VSMotionDelegate = nil;
+        [_aumMotion clearButtons];
+        
+        _aumMotion.vsMotionDelegate = nil;
         _aumMotion                   = nil;
     }
 }
@@ -165,7 +167,7 @@
 
 #pragma mark - Delegates
 
- - (void)buttonClicked:(NSNumber *)buttonId
+- (void)buttonClicked:(NSNumber *)buttonId
 {
     VSLog("Clicked button %d", buttonId.intValue);
 }

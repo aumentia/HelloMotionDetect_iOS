@@ -8,10 +8,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <VS/VSMotion.h>
+#import <VS/VS.h>
 #import "CaptureSessionManager.h"
 
-@interface ViewController : UIViewController<VSMotionProtocol, CameraCaptureDelegate>
+@interface ViewController : UIViewController<vsMotionProtocol, CameraCaptureDelegate>
 
 
 @end
