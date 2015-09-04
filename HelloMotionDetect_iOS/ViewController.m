@@ -46,7 +46,7 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
-    [self viewWillAppear:animated];
+    [super viewWillAppear:animated];
     
     [self initCapture];
     
@@ -55,7 +55,7 @@
 
 - (void)viewWillDisappear:(BOOL)animated
 {
-    [self viewWillDisappear:animated];
+    [super viewWillDisappear:animated];
     
     [self removeCapture];
     
