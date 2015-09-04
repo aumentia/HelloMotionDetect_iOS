@@ -35,6 +35,8 @@
 
 - (void)viewDidAppear:(BOOL)animated
 {
+    [super viewDidAppear:animated];
+    
     UIImage *myLogo         = [UIImage imageNamed:@"aumentia®.png"];
     UIImageView *myLogoView = [[UIImageView alloc] initWithImage:myLogo];
     [myLogoView setFrame:CGRectMake(0, 0, 150, 61)];
@@ -44,6 +46,8 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
+    [self viewWillAppear:animated];
+    
     [self initCapture];
     
     [self addMotionDetect];
@@ -51,6 +55,8 @@
 
 - (void)viewWillDisappear:(BOOL)animated
 {
+    [self viewWillDisappear:animated];
+    
     [self removeCapture];
     
     [self removeMotionDetect];
