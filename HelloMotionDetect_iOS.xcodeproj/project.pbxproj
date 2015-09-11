@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		612C797B1BA2C996002ABF67 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 612C797A1BA2C996002ABF67 /* libiconv.tbd */; };
+		612C797D1BA2CB63002ABF67 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 612C797C1BA2CB63002ABF67 /* libstdc++.6.0.9.tbd */; };
 		613CCD641B97739E00084D85 /* VS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 613CCD631B97739E00084D85 /* VS.framework */; };
 		6195B3AF1B95F12800C50E28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6195B3AE1B95F12800C50E28 /* main.m */; };
 		6195B3B21B95F12800C50E28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6195B3B11B95F12800C50E28 /* AppDelegate.m */; };
@@ -18,13 +20,14 @@
 		6195B3E71B95F62E00C50E28 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6195B3E21B95F60C00C50E28 /* UIKit.framework */; };
 		6195B3E81B95F62E00C50E28 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6195B3E01B95F60800C50E28 /* Accelerate.framework */; };
 		6195B3EB1B95F6D800C50E28 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6195B3E91B95F6D100C50E28 /* CoreMotion.framework */; };
-		6195B3EE1B95F6FC00C50E28 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6195B3EC1B95F6F400C50E28 /* libiconv.dylib */; };
 		6195B3F11B95F71500C50E28 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6195B3EF1B95F70F00C50E28 /* AVFoundation.framework */; };
 		6195B3F41B95FD6900C50E28 /* CaptureSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6195B3F31B95FD6900C50E28 /* CaptureSessionManager.m */; };
 		6195B8001B9763F700C50E28 /* aumentia®.png in Resources */ = {isa = PBXBuildFile; fileRef = 6195B7FF1B9763F700C50E28 /* aumentia®.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		612C797A1BA2C996002ABF67 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		612C797C1BA2CB63002ABF67 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
 		613CCD631B97739E00084D85 /* VS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VS.framework; path = SDK/VS.framework; sourceTree = "<group>"; };
 		6195B3A91B95F12800C50E28 /* HelloMotionDetect_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloMotionDetect_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6195B3AD1B95F12800C50E28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,7 +43,6 @@
 		6195B3E21B95F60C00C50E28 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6195B3E41B95F61600C50E28 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6195B3E91B95F6D100C50E28 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
-		6195B3EC1B95F6F400C50E28 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 		6195B3EF1B95F70F00C50E28 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		6195B3F21B95FD6900C50E28 /* CaptureSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptureSessionManager.h; sourceTree = "<group>"; };
 		6195B3F31B95FD6900C50E28 /* CaptureSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptureSessionManager.m; sourceTree = "<group>"; };
@@ -52,8 +54,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				612C797D1BA2CB63002ABF67 /* libstdc++.6.0.9.tbd in Frameworks */,
+				612C797B1BA2C996002ABF67 /* libiconv.tbd in Frameworks */,
 				613CCD641B97739E00084D85 /* VS.framework in Frameworks */,
-				6195B3EE1B95F6FC00C50E28 /* libiconv.dylib in Frameworks */,
 				6195B3F11B95F71500C50E28 /* AVFoundation.framework in Frameworks */,
 				6195B3EB1B95F6D800C50E28 /* CoreMotion.framework in Frameworks */,
 				6195B3E61B95F62E00C50E28 /* Foundation.framework in Frameworks */,
@@ -112,8 +115,9 @@
 		6195B3DE1B95F59B00C50E28 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				612C797C1BA2CB63002ABF67 /* libstdc++.6.0.9.tbd */,
+				612C797A1BA2C996002ABF67 /* libiconv.tbd */,
 				613CCD631B97739E00084D85 /* VS.framework */,
-				6195B3EC1B95F6F400C50E28 /* libiconv.dylib */,
 				6195B3EF1B95F70F00C50E28 /* AVFoundation.framework */,
 				6195B3E91B95F6D100C50E28 /* CoreMotion.framework */,
 				6195B3E41B95F61600C50E28 /* Foundation.framework */,
@@ -150,7 +154,7 @@
 		6195B3A11B95F12800C50E28 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Aumentia Technologies SL";
 				TargetAttributes = {
 					6195B3A81B95F12800C50E28 = {
@@ -262,6 +266,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -277,7 +282,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -315,7 +320,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -336,7 +341,7 @@
 				);
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				INFOPLIST_FILE = HelloMotionDetect_iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
@@ -347,6 +352,7 @@
 					"-mfpu=neon",
 					"-mtune=cortex-a8",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aumentia.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -364,7 +370,7 @@
 				);
 				GCC_C_LANGUAGE_STANDARD = "compiler-default";
 				INFOPLIST_FILE = HelloMotionDetect_iOS/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
@@ -375,6 +381,7 @@
 					"-mfpu=neon",
 					"-mtune=cortex-a8",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aumentia.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
